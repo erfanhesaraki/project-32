@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid bg-white credit-Card  ">
+        <section class="row">
+            <div class="row box1  front">
+                <div class="col-12  px-0">
+
+                    <!-- ********* -->
+                    <div class="row h-25 ">
+                        <div class="col-12 d-flex px-0">
+                            <div class="col-6  px-0 ">
+                                <span class="chip"></span>
+                            </div>
+                            <div class="col-6  px-0 d-flex justify-content-end align-items-center ">
+
+                                <h2 class="visa pe-4  text-white">VISA</h2>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ******* -->
+                    <div class="row h-75 align-items-end   ">
+
+
+
+                        <!-- *******show******* -->
+                        <div class="col-12 h-75   ">
+                            <div class="row h-75  justify-content-start align-items-center ps-2  fs-1 text-light "
+                                id="show"></div>
+                            <div class="row h-25 ">
+                                <h6 class="col-6 h-100   d-flex  align-items-end text-light  ps-2">CARD HOLDER</h6>
+                                <h6 class="col-6 h-100 d-flex justify-content-end align-items-end text-light 
+                                pe-4 ">EXPIRES</h6>
+                            </div>
+                        </div>
+
+                        <div class="row h-25   mx-0 px-0">
+                            <!--*******Name******* -->
+                            <h3 class="col-6 d-flex justify-content-start align-items-center mx-0 px-0  ps-2  text-light"
+                                id="Name"></h3>
+                            <h3 class="col-6 d-flex justify-content-end align-items-center mx-0 px-0  pe-4 text-light">
+                                <span>
+                                    <span class="_year"></span>
+                                    <span class="">/</span>
+                                    <span class="_month"></span>
+                                </span>
+
+                            </h3>
+                        </div>
+                    </div>
+                    <!-- ********* -->
+                </div>
+
+
+                <div class="backCard row px-0">
+                    <div class="col-12 h-100 ">
+
+                        <div class="row h-50  px-0 d-flex align-items-center">
+                            <span class="h-50 bg-black "></span>
+                        </div>
+                        <div class="row h-25   px-0 align-items-center justify-content-center d-flex ">
+
+
+                            <label class="d-flex justify-content-end fs-6   me-3 text-white" for="cvv2">cvv</label>
+                            <!-- *******cvv2****** -->
+                            <div class="col-11 bg-white  h-50  rounded py-3 d-flex justify-content-end  align-items-center "
+                                id="c2"></div>
+
+                        </div>
+                        <div class="row h-25   px-0">
+                            <h2 class="visa pe-4  text-white d-flex justify-content-end ">VISA</h2>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+            <!-- box2 -->
+            <div class="row box2  ">
+
+                <!-- input one -->
+
+                <div class="row px-0 justify-content-evenly">
+                    <label for="" class="px-0 ">
+                        CARD NUMBER
+                    </label>
+                    <input type="text" name="" id="cardNumber" class="col  rounded-3 py-2 ">
+                    <div class="errorReq">
+                        Required Field
+                    </div>
+                </div>
+
+                <!-- input two  label-->
+                <div class="row   px-0 ">
+                    <label for="CARD HOLDER" class="px-0 ">CARD HOLDER</label>
+                    <input type="text" name="" id="cardHolder" class="col rounded-2 py-2">
+                    <div class="errorReq">
+                        Required Field
+                    </div>
+                </div>
+
+
+                <!-- input three -->
+                <div class="row   px-0 ">
+                    <div class="col-6   ">
+                        <div class="row ">
+                            <label for="EXPIRATION DATE
+                            " class=" ">EXPIRATION DATE
+                            </label>
+                        </div>
+                        <div class="row  justify-content-center ">
+                            <select name="" id="EXPIRATIONDATE
+                           " class="col-5 px-0 rounded-2 p-2  me-4 monnn">
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                            <select name="" id="EXPIRATION
+                            " class="col-5 px-0   rounded-2  yearss " ">
+                                <option value=" 2020">2020</option>
+                                <option value="2021">2021</option>
+                                <option value="2022">2022</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                                <option value="2026">2026</option>
+                                <option value="2027">2027</option>
+                                <option value="2028">2028</option>
+                                <option value="2029">2029</option>
+                                <option value="2030">2030</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col-6   ">
+                        <div class="row  flex-column  justify-content-end  align-items-end ">
+                            <label for="cvv2" class="w-50">CVV2</label>
+                            <input type="text" name="cvv2" id="cvv2" class="col-5 rounded-2 py-1 cvv">
+                            <div class="errorReq">
+                                Required Field
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="row   px-0">
+                    <input type="submit" name="" id="submit" class="py-2 rounded-3 ">
+                </div>
+
+            </div>
+            <!-- input four -->
+
+    </div>
+    </section>
+    </div>
+
+
+
+
+    <script>
+
+
+        let allError = [...document.getElementsByClassName('errorReq')]
+        allError.map((item) => {
+            item.style.cssText = 'transform:scale(0)'
+        })
+
+        let inp = document.getElementsByTagName('input')
+
+        for (i = 0; i < inp.length; i++) {
+            let = cardNumber = document.getElementById('cardNumber')
+            let = cardHolder = document.getElementById('cardHolder')
+            let = cvv2 = document.getElementById('cvv2')
+
+            inp[i].addEventListener('input', function () {
+
+                if (this.getAttribute('id') == cardNumber.getAttribute('id')) {
+                    this.nextElementSibling.style.cssText = 'transform:scale(0)'
+                    if (this.value.search(/[a-z-*-+-,-.]/i) != -1) {
+                        this.nextElementSibling.style.cssText = 'transform:scale(1);color:red'
+                    }
+                }
+
+                if (this.getAttribute('id') == cardHolder.getAttribute('id')) {
+                    this.nextElementSibling.style.cssText = 'transform:scale(0)'
+                    if (this.value.search(/[0-9-*-+-,-.]/i) != -1) {
+                        this.nextElementSibling.style.cssText = 'transform:scale(1);color:red'
+                    }
+                }
+
+                if (this.getAttribute('id') == cvv2.getAttribute('id')) {
+                    this.nextElementSibling.style.cssText = 'transform:scale(0)'
+                    if (this.value.search(/[a-z-*-+-,-.]/i) != -1) {
+                        this.nextElementSibling.style.cssText = 'transform:scale(1);color:red'
+                    }
+                }
+
+            })
+        }
+
+
+
+        // ***********card Number**********
+        let _show = document.getElementById('show')
+        document.getElementById('cardNumber').addEventListener('input', function (event) {
+            let status = event.data
+            let cardNumberVal = this.value
+            if (status == null) {
+                let temp = _show.innerText
+                if (
+                    (temp.length == 6) ||
+                    (temp.length == 11) ||
+                    (temp.length == 16)
+
+                ) {
+                    _show.innerHTML = temp.substring(0, (temp.length) - 2)
+                } else {
+                    _show.innerHTML = temp.substring(0, (temp.length) - 1)
+                }
+            } else {
+
+                if (
+                    cardNumberVal.length < 16
+                ) {
+                    _write(cardNumberVal)
+                } else if (
+                    cardNumberVal.length == 16
+                ) {
+                    _write(cardNumberVal)
+                    document.getElementById('cardHolder').focus()
+                } else {
+                    this.value = (this.value).substring(0, 16)
+                }
+            }
+
+        })
+        function _write(cardNumberVal) {
+            let cardLastChar = cardNumberVal.substr(-1)
+
+            if (
+                (cardNumberVal.length == 4) ||
+                (cardNumberVal.length == 8) ||
+                (cardNumberVal.length == 12)
+            ) {
+                _show.innerHTML += cardLastChar + "-"
+            } else {
+                _show.innerHTML += cardLastChar
+            }
+        }
+        // ***********card Number**********
+
+        // ***********cardHolder**********
+        let _Name = document.getElementById('Name')
+        document.getElementById('cardHolder').addEventListener('input', function (event) {
+            let cardHolderStatus = event.data
+            let cardHolderVal = this.value
+
+            if (cardHolderStatus == null) {
+                let cardHolderTemp = _Name.innerText
+                _Name.innerText = cardHolderTemp.substring(0, (cardHolderTemp.length) - 1)
+            } else {
+
+                let cardHolderLastChar = cardHolderVal.substr(-1)
+
+                if (cardHolderVal.length >= 13) {
+                    this.value = (this.value).substring(0, 13)
+                    document.getElementById('cvv2').focus()
+
+                } else {
+                    _Name.innerText += cardHolderLastChar
+                }
+            }
+
+        })
+
+        // ***********cardHolder**********
+
+
+
+
+        // **********month and years************
+
+        document.querySelector('.yearss').addEventListener('input', () => {
+            document.querySelector('._year').innerText = document.querySelector('.yearss').value
+
+        })
+
+        document.querySelector('.monnn').addEventListener('input', () => {
+            document.querySelector('._month').innerText = document.querySelector('.monnn').value
+        })
+
+        // **********month and years************
+
+
+
+
+
+
+
+        // ***************cvv2**************
+
+
+        // rorateY********
+        let cvv = document.querySelector('.cvv')
+        let _front = document.querySelector('.front')
+        let _Back = document.querySelector('.backCard')
+
+
+
+        cvv.addEventListener("mousemove", () => {
+            console.log();
+            _front.style.transform = "perspective(1000px) rotateY(-180deg) ";
+            // _back.style.transform = "perspective(1000px) rotateY(0deg)";
+        });
+
+        cvv.addEventListener("mouseleave", () => {
+            console.log();
+            _front.style.transform = "perspective(1000px) rotateY(0deg) ";
+            // _back.style.transform = "perspective(1000px) rotateY(180deg)";
+        });
+
+
+        // rorateY********
+
+
+        // *************
+
+        let _c2 = document.getElementById('c2')
+        document.getElementById('cvv2').addEventListener('input', function (event) {
+
+
+            let cvv2Status = event.data
+            let cvv2Val = this.value
+
+            if (cvv2Status == null) {
+                let cvv2Temp = _c2.innerText
+                _c2.innerText = cvv2Temp.substring(0, (cvv2Temp.length) - 1)
+            } else {
+
+                let cvv2LastChar = cvv2Val.substr(-1)
+
+                if (cvv2Val.length >= 5) {
+                    this.value = (this.value).substring(0, 4)
+
+                } else {
+                    _c2.innerText += cvv2LastChar
+                }
+            }
+
+
+
+        })
+
+
+
+
+
+        // ***************cvv2**************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>
